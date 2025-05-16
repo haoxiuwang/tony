@@ -1,0 +1,21 @@
+{
+  "name": "tony",
+  "version": "1.0.0",
+  "description": "一个无框架、高透明度、极简主义的 Node.js Web 应用架构。",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node build",
+    "start": "node dist/app"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.4"
+  },
+  "keywords": [
+    "五框架"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^4.0.7"
+  }
+}
