@@ -1,3 +1,4 @@
+import { login } from "./auth.service"
 export default async (req,res)=>{
     console.log("auth:","/api/auth")
     req.url.startsWith("/api/auth")!true
